@@ -1,0 +1,123 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wedding Invitation</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+    }
+
+    body {
+      background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .invitation {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 40px;
+      width: 100%;
+      max-width: 500px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .bride-groom {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.5rem;
+      color: #b76e79;
+      margin-bottom: 10px;
+    }
+
+    .details {
+      font-size: 1.1rem;
+      color: #444;
+      margin: 20px 0;
+    }
+
+    .date {
+      font-size: 1.2rem;
+      color: #333;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    a button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #b76e79;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    a button:hover {
+      background-color: #9e5865;
+    }
+
+    @media (max-width: 600px) {
+      .invitation {
+        padding: 20px;
+      }
+
+      .bride-groom {
+        font-size: 2rem;
+      }
+
+      .details {
+        font-size: 1rem;
+      }
+
+      .date {
+        font-size: 1.1rem;
+      }
+
+      a button {
+        width: 100%;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="invitation">
+    <div class="bride-groom">Varun & Haripriya</div>
+    <div class="details">
+      With love in our hearts<br/>
+      we invite you to celebrate our wedding<br/><br/>
+      Venue: The Grand Palace, Jaipur<br/>
+      Time: 6:30 PM onwards
+    </div>
+    <div class="date">April 28, 2025</div>
+    <a href="https://www.youtube.com/watch?v=lvkmwgG3mRs" target="_blank">
+      <button>Click Here to Watch</button>
+    </a>
+  </div>
+
+</body>
+</html>
+
